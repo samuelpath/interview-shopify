@@ -1,0 +1,23 @@
+{
+  "name": "interview-shopify",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "node_modules/.bin/jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/samuelpath/interview-shopify.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/samuelpath/interview-shopify/issues"
+  },
+  "homepage": "https://github.com/samuelpath/interview-shopify#readme",
+  "devDependencies": {
+    "jest": "^27.5.1"
+  }
+}
