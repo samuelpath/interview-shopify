@@ -3,7 +3,7 @@ const myFooFunction = () => {
 
 }
 const myBarFunction = () => {
-  return true;
+  return { bar: 'bar' };
 }
 
 module.exports = {

@@ -9,7 +9,7 @@ describe('myFooFunction()', () => {
 });
 
 describe('myBarFunction()', () => {
-  it('should return true', () => {
-    expect(myBarFunction()).toBe(true);
+  it('should return the same object content', () => {
+    expect(myBarFunction()).toEqual({ bar: 'bar' });
   });
 });
