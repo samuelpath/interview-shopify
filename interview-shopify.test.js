@@ -1,9 +1,15 @@
 // Jest main matchers : https://jestjs.io/docs/using-matchers
 
-const myDummyFunction = require('./interview-shopify.js');
+const { myFooFunction, myBarFunction } = require('./interview-shopify.js');
 
-describe('myDummyFunction()', () => {
+describe('myFooFunction()', () => {
   it('should return false', () => {
-    expect(myDummyFunction()).toBe(false);
+    expect(myFooFunction()).toBe(false);
+  });
+});
+
+describe('myBarFunction()', () => {
+  it('should return true', () => {
+    expect(myBarFunction()).toBe(true);
   });
 });

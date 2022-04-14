@@ -1,5 +1,12 @@
-const myDummyFunction = () => {
+const myFooFunction = () => {
   return false;
+
+}
+const myBarFunction = () => {
+  return true;
 }
 
-module.exports = myDummyFunction;
+module.exports = {
+  myFooFunction,
+  myBarFunction
+}
